@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Eguide</string>
+    <string name="about">关于软件</string>
+    
+    <string name="locate_title">welcome to location module!</string>
+    <string name="latitude">纬度</string>
+    <string name="longitude">经度</string>
+    
+    <string name="shot_title">wecome to shot module!</string>
+    <string name="shot_btn">拍照</string>
+
+</resources>
