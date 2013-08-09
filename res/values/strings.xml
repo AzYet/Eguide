@@ -3,12 +3,24 @@
 
     <string name="app_name">Eguide</string>
     <string name="about">关于软件</string>
-    
     <string name="locate_title">welcome to location module!</string>
     <string name="latitude">纬度</string>
     <string name="longitude">经度</string>
-    
     <string name="shot_title">wecome to shot module!</string>
     <string name="shot_btn">拍照</string>
-
+    <string name="title_activity_speech">SpeechActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="buttomStart">后台播放</string>
+    <string name="textViewInputHint">Text to synthesize</string>
+    <string name="preference_default_tts_role">xiaoyu</string>
+    <string name="preference_key_tts_role">xiaoyu</string>
+    <string name="preference_key_tts_speed">60</string>
+    <string name="preference_key_tts_volume">60</string>
+    <string name="app_id">51efc487</string>
+    <string name="speed">语速</string>
+    <string name="textviewPitch">音量</string>
+    <string name="defaultText">中国故宫别称是紫禁城，占地72万多平方米，有楼宇8000余间，建筑面积15万平方米。故宫是明清两代的皇宫，是我国现存最大最完整的古建筑群。</string>
+    <string name="textviewVCN">人声角色</string>
+    
 </resources>

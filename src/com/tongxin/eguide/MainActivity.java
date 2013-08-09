@@ -36,6 +36,12 @@ public class MainActivity extends Activity
 							intent.setClass(MainActivity.this, LocateActivity.class);
 							startActivity(intent);
 						}
+						if(position==1)
+						{
+							Intent intent=new Intent();
+							intent.setClass(MainActivity.this, SpeechActivity.class);
+							startActivity(intent);
+						}
 //						Toast.makeText(MainActivity.this, "you have choose"+(position+1), Toast.LENGTH_SHORT).show();
 						if(position==2)
 						{
@@ -57,9 +63,9 @@ public class MainActivity extends Activity
 	protected void dialog()
 	{
 		AlertDialog.Builder build=new Builder(MainActivity.this);
-		build.setMessage("确定要退出吗?");
-		build.setTitle("提示");
-		build.setPositiveButton("确认", new android.content.DialogInterface.OnClickListener()
+		build.setMessage("确锟斤拷要锟剿筹拷锟斤拷?");
+		build.setTitle("锟斤拷示");
+		build.setPositiveButton("确锟斤拷", new android.content.DialogInterface.OnClickListener()
 		{
 			
 			public void onClick(DialogInterface dialog, int which)
@@ -68,7 +74,7 @@ public class MainActivity extends Activity
 				MainActivity.this.finish();				
 			}
 		});
-		build.setNegativeButton("取消", new android.content.DialogInterface.OnClickListener()
+		build.setNegativeButton("取锟斤拷", new android.content.DialogInterface.OnClickListener()
 		{
 			public void onClick(DialogInterface dialog, int which)
 			{
