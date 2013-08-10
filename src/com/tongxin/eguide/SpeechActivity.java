@@ -2,7 +2,6 @@ package com.tongxin.eguide;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.os.Looper;
 import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
