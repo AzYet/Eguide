@@ -56,6 +56,7 @@
         android:id="@+id/spinnerVCN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
         android:layout_below="@+id/seekBarPitch"
         android:layout_toRightOf="@+id/textViewVCN" />
 
@@ -63,20 +64,11 @@
         android:id="@+id/buttonPauseResume"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/spinnerVCN"
+        android:layout_alignParentRight="true"
         android:layout_below="@+id/spinnerVCN"
         android:layout_toRightOf="@+id/buttonStart"
         android:onClick="pauseOrResume"
         android:text="pause" />
-
-    <Button
-        android:id="@+id/buttonShow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/buttonStart"
-        android:layout_below="@+id/buttonStart"
-        android:onClick="startSpeech"
-        android:text="前台播放" />
 
     <TextView
         android:id="@+id/textViewVCN"
@@ -93,7 +85,7 @@
         android:layout_alignBaseline="@+id/toggleButtonBGM"
         android:layout_alignBottom="@+id/toggleButtonBGM"
         android:layout_alignParentLeft="true"
-        android:text="背景音乐" />
+        android:text="@string/bgm" />
 
     <ToggleButton
         android:id="@+id/toggleButtonBGM"
@@ -104,7 +96,7 @@
         android:textOn="开"
 		android:textOff="关"
 		android:checked="true"
-        android:text="ToggleButton" />
+        android:text="@string/togglebutton" />
 
     <Button
         android:id="@+id/buttonStart"
@@ -115,5 +107,14 @@
         android:hint="@string/textViewInputHint"
         android:onClick="startSpeech"
         android:text="@string/buttomStart" />
+
+    <Button
+        android:id="@+id/buttonShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonPauseResume"
+        android:layout_centerHorizontal="true"
+        android:onClick="startSpeech"
+        android:text="@string/button_playForestage" />
 
 </RelativeLayout>

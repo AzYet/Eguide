@@ -42,7 +42,7 @@ public final class R {
         public static final int bmapView=0x7f080003;
         public static final int btn_shot=0x7f080002;
         public static final int buttonPauseResume=0x7f08000f;
-        public static final int buttonShow=0x7f080011;
+        public static final int buttonShow=0x7f080013;
         public static final int buttonStart=0x7f080010;
         public static final int editTextInput=0x7f080008;
         public static final int imgView=0x7f080007;
@@ -50,13 +50,13 @@ public final class R {
         public static final int seekBarSpeed=0x7f08000a;
         public static final int shot_title=0x7f080005;
         public static final int spinnerVCN=0x7f08000d;
-        public static final int textViewBGM=0x7f080013;
+        public static final int textViewBGM=0x7f080012;
         public static final int textViewPitch=0x7f08000b;
         public static final int textViewSpeed=0x7f080009;
         public static final int textViewVCN=0x7f08000e;
         public static final int tlatitude=0x7f080000;
         public static final int tlongtitude=0x7f080001;
-        public static final int toggleButtonBGM=0x7f080012;
+        public static final int toggleButtonBGM=0x7f080011;
         public static final int tv_info=0x7f080006;
     }
     public static final class layout {
@@ -74,7 +74,9 @@ public final class R {
         public static final int action_settings=0x7f050008;
         public static final int app_id=0x7f050010;
         public static final int app_name=0x7f050000;
+        public static final int bgm=0x7f050015;
         public static final int buttomStart=0x7f05000a;
+        public static final int button_playForestage=0x7f050017;
         public static final int defaultText=0x7f050013;
         public static final int hello_world=0x7f050009;
         public static final int latitude=0x7f050003;
@@ -91,6 +93,7 @@ public final class R {
         public static final int textviewPitch=0x7f050012;
         public static final int textviewVCN=0x7f050014;
         public static final int title_activity_speech=0x7f050007;
+        public static final int togglebutton=0x7f050016;
     }
     public static final class style {
         /** 
