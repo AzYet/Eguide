@@ -68,7 +68,7 @@
         android:layout_below="@+id/spinnerVCN"
         android:layout_toRightOf="@+id/buttonStart"
         android:onClick="pauseOrResume"
-        android:text="pause" />
+        android:text="@string/button_pause" />
 
     <TextView
         android:id="@+id/textViewVCN"

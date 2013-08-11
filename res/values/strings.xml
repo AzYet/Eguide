@@ -25,5 +25,6 @@
     <string name="bgm">背景音乐</string>
     <string name="togglebutton">ToggleButton</string>
     <string name="button_playForestage">前台播放</string>
+    <string name="button_pause">pause</string>
     
 </resources>

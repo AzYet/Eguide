@@ -76,6 +76,7 @@ public final class R {
         public static final int app_name=0x7f050000;
         public static final int bgm=0x7f050015;
         public static final int buttomStart=0x7f05000a;
+        public static final int button_pause=0x7f050018;
         public static final int button_playForestage=0x7f050017;
         public static final int defaultText=0x7f050013;
         public static final int hello_world=0x7f050009;
